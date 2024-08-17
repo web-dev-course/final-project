@@ -57,5 +57,5 @@ Students are tasked with building the front end of an e-commerce application usi
 - Pay attention to details in the Figma design for a polished user interface.
 
 ## Submission:
-- The assignment should be submitted by **[Deadline Date]**.
+- The assignment should be submitted by **30th August**.
 - Ensure your code is clean, well-commented, and follows best practices.
