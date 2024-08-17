@@ -20,11 +20,11 @@ Students are tasked with building the front end of an e-commerce application usi
 - Fetch product data from a public API (use Dummy JSON API or similar).
 - Filter the products to display only smartphones, laptops, and mobile accessories.
 - Display the filtered products as cards, using the Figma design guide for layout and style.
-- Each product card should include an image (use the `thumbnail` field from the JSON data) and other relevant details.
+- Each product card should include an image (use the `thumbnail`, `title`, `brand`, `price` fields from the JSON data) and other relevant details.
 
 ### Product Details Page:
 - On clicking a product card, navigate to a detailed product page.
-- Display detailed information about the selected product as per the Figma design.
+- Display detailed information about the selected product as per the Figma design (See the `Item-View` page in figma).
 
 ### Shopping Cart:
 - Implement a shopping cart using React's Context API.
@@ -36,13 +36,14 @@ Students are tasked with building the front end of an e-commerce application usi
 
 ### Cart Page:
 - Create a cart page that displays the current items in the cart, fetched from the Context API.
-- Allow users to add or delete items directly from this page.
+- Allow users to add or delete items directly from this page (See the `Cart` page in figma).
 
 ### Checkout Process:
 - On clicking the "Checkout" button in the sidebar, navigate to the checkout page.
 - The checkout page should display the cart items and allow users to add an address and payment method.
 - Implement "Add Address" and "Add Card" sections, updating the relevant information on the checkout page.
 - Ensure the checkout flow follows the design guide.
+- On click of buttons it should lead user to respective pages (Hint: Search up `useNavigate` hook in the react-router-dom library. 
 
 ## Design:
 - Follow the provided Figma design file for all pages (Sign-Up, Login, Home, Product Details, Cart, Checkout).
